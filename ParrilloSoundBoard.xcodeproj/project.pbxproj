@@ -17,6 +17,7 @@
 		42BBDCE32CB49378008F374B /* ParrilloSoundBoardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BBDCE22CB49378008F374B /* ParrilloSoundBoardTests.swift */; };
 		42BBDCED2CB49378008F374B /* ParrilloSoundBoardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BBDCEC2CB49378008F374B /* ParrilloSoundBoardUITests.swift */; };
 		42BBDCEF2CB49378008F374B /* ParrilloSoundBoardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BBDCEE2CB49378008F374B /* ParrilloSoundBoardUITestsLaunchTests.swift */; };
+		42BBDCFC2CB49B2A008F374B /* SoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BBDCFB2CB49B2A008F374B /* SoundViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		42BBDCE82CB49378008F374B /* ParrilloSoundBoardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParrilloSoundBoardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		42BBDCEC2CB49378008F374B /* ParrilloSoundBoardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParrilloSoundBoardUITests.swift; sourceTree = "<group>"; };
 		42BBDCEE2CB49378008F374B /* ParrilloSoundBoardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParrilloSoundBoardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		42BBDCFB2CB49B2A008F374B /* SoundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				42BBDCCA2CB49375008F374B /* SceneDelegate.swift */,
 				42BBDCCC2CB49375008F374B /* ViewController.swift */,
 				42BBDCCE2CB49375008F374B /* Main.storyboard */,
+				42BBDCFB2CB49B2A008F374B /* SoundViewController.swift */,
 				42BBDCD42CB49378008F374B /* Assets.xcassets */,
 				42BBDCD62CB49378008F374B /* LaunchScreen.storyboard */,
 				42BBDCD92CB49378008F374B /* Info.plist */,
@@ -265,6 +268,7 @@
 				42BBDCD32CB49375008F374B /* ParrilloSoundBoard.xcdatamodeld in Sources */,
 				42BBDCC92CB49375008F374B /* AppDelegate.swift in Sources */,
 				42BBDCCB2CB49375008F374B /* SceneDelegate.swift in Sources */,
+				42BBDCFC2CB49B2A008F374B /* SoundViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
