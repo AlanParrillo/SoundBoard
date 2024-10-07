@@ -1,0 +1,620 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42BBDCC92CB49375008F374B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BBDCC82CB49375008F374B /* AppDelegate.swift */; };
+		42BBDCCB2CB49375008F374B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BBDCCA2CB49375008F374B /* SceneDelegate.swift */; };
+		42BBDCCD2CB49375008F374B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BBDCCC2CB49375008F374B /* ViewController.swift */; };
+		42BBDCD02CB49375008F374B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42BBDCCE2CB49375008F374B /* Main.storyboard */; };
+		42BBDCD32CB49375008F374B /* ParrilloSoundBoard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 42BBDCD12CB49375008F374B /* ParrilloSoundBoard.xcdatamodeld */; };
+		42BBDCD52CB49378008F374B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42BBDCD42CB49378008F374B /* Assets.xcassets */; };
+		42BBDCD82CB49378008F374B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42BBDCD62CB49378008F374B /* LaunchScreen.storyboard */; };
+		42BBDCE32CB49378008F374B /* ParrilloSoundBoardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BBDCE22CB49378008F374B /* ParrilloSoundBoardTests.swift */; };
+		42BBDCED2CB49378008F374B /* ParrilloSoundBoardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BBDCEC2CB49378008F374B /* ParrilloSoundBoardUITests.swift */; };
+		42BBDCEF2CB49378008F374B /* ParrilloSoundBoardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BBDCEE2CB49378008F374B /* ParrilloSoundBoardUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		42BBDCDF2CB49378008F374B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42BBDCBD2CB49375008F374B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42BBDCC42CB49375008F374B;
+			remoteInfo = ParrilloSoundBoard;
+		};
+		42BBDCE92CB49378008F374B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42BBDCBD2CB49375008F374B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42BBDCC42CB49375008F374B;
+			remoteInfo = ParrilloSoundBoard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		42BBDCC52CB49375008F374B /* ParrilloSoundBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParrilloSoundBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		42BBDCC82CB49375008F374B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		42BBDCCA2CB49375008F374B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		42BBDCCC2CB49375008F374B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		42BBDCCF2CB49375008F374B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		42BBDCD22CB49375008F374B /* ParrilloSoundBoard.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ParrilloSoundBoard.xcdatamodel; sourceTree = "<group>"; };
+		42BBDCD42CB49378008F374B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		42BBDCD72CB49378008F374B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		42BBDCD92CB49378008F374B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42BBDCDE2CB49378008F374B /* ParrilloSoundBoardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParrilloSoundBoardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		42BBDCE22CB49378008F374B /* ParrilloSoundBoardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParrilloSoundBoardTests.swift; sourceTree = "<group>"; };
+		42BBDCE82CB49378008F374B /* ParrilloSoundBoardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParrilloSoundBoardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		42BBDCEC2CB49378008F374B /* ParrilloSoundBoardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParrilloSoundBoardUITests.swift; sourceTree = "<group>"; };
+		42BBDCEE2CB49378008F374B /* ParrilloSoundBoardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParrilloSoundBoardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42BBDCC22CB49375008F374B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42BBDCDB2CB49378008F374B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42BBDCE52CB49378008F374B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42BBDCBC2CB49375008F374B = {
+			isa = PBXGroup;
+			children = (
+				42BBDCC72CB49375008F374B /* ParrilloSoundBoard */,
+				42BBDCE12CB49378008F374B /* ParrilloSoundBoardTests */,
+				42BBDCEB2CB49378008F374B /* ParrilloSoundBoardUITests */,
+				42BBDCC62CB49375008F374B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		42BBDCC62CB49375008F374B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42BBDCC52CB49375008F374B /* ParrilloSoundBoard.app */,
+				42BBDCDE2CB49378008F374B /* ParrilloSoundBoardTests.xctest */,
+				42BBDCE82CB49378008F374B /* ParrilloSoundBoardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42BBDCC72CB49375008F374B /* ParrilloSoundBoard */ = {
+			isa = PBXGroup;
+			children = (
+				42BBDCC82CB49375008F374B /* AppDelegate.swift */,
+				42BBDCCA2CB49375008F374B /* SceneDelegate.swift */,
+				42BBDCCC2CB49375008F374B /* ViewController.swift */,
+				42BBDCCE2CB49375008F374B /* Main.storyboard */,
+				42BBDCD42CB49378008F374B /* Assets.xcassets */,
+				42BBDCD62CB49378008F374B /* LaunchScreen.storyboard */,
+				42BBDCD92CB49378008F374B /* Info.plist */,
+				42BBDCD12CB49375008F374B /* ParrilloSoundBoard.xcdatamodeld */,
+			);
+			path = ParrilloSoundBoard;
+			sourceTree = "<group>";
+		};
+		42BBDCE12CB49378008F374B /* ParrilloSoundBoardTests */ = {
+			isa = PBXGroup;
+			children = (
+				42BBDCE22CB49378008F374B /* ParrilloSoundBoardTests.swift */,
+			);
+			path = ParrilloSoundBoardTests;
+			sourceTree = "<group>";
+		};
+		42BBDCEB2CB49378008F374B /* ParrilloSoundBoardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				42BBDCEC2CB49378008F374B /* ParrilloSoundBoardUITests.swift */,
+				42BBDCEE2CB49378008F374B /* ParrilloSoundBoardUITestsLaunchTests.swift */,
+			);
+			path = ParrilloSoundBoardUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42BBDCC42CB49375008F374B /* ParrilloSoundBoard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42BBDCF22CB49378008F374B /* Build configuration list for PBXNativeTarget "ParrilloSoundBoard" */;
+			buildPhases = (
+				42BBDCC12CB49375008F374B /* Sources */,
+				42BBDCC22CB49375008F374B /* Frameworks */,
+				42BBDCC32CB49375008F374B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ParrilloSoundBoard;
+			productName = ParrilloSoundBoard;
+			productReference = 42BBDCC52CB49375008F374B /* ParrilloSoundBoard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		42BBDCDD2CB49378008F374B /* ParrilloSoundBoardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42BBDCF52CB49378008F374B /* Build configuration list for PBXNativeTarget "ParrilloSoundBoardTests" */;
+			buildPhases = (
+				42BBDCDA2CB49378008F374B /* Sources */,
+				42BBDCDB2CB49378008F374B /* Frameworks */,
+				42BBDCDC2CB49378008F374B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42BBDCE02CB49378008F374B /* PBXTargetDependency */,
+			);
+			name = ParrilloSoundBoardTests;
+			productName = ParrilloSoundBoardTests;
+			productReference = 42BBDCDE2CB49378008F374B /* ParrilloSoundBoardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		42BBDCE72CB49378008F374B /* ParrilloSoundBoardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42BBDCF82CB49378008F374B /* Build configuration list for PBXNativeTarget "ParrilloSoundBoardUITests" */;
+			buildPhases = (
+				42BBDCE42CB49378008F374B /* Sources */,
+				42BBDCE52CB49378008F374B /* Frameworks */,
+				42BBDCE62CB49378008F374B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42BBDCEA2CB49378008F374B /* PBXTargetDependency */,
+			);
+			name = ParrilloSoundBoardUITests;
+			productName = ParrilloSoundBoardUITests;
+			productReference = 42BBDCE82CB49378008F374B /* ParrilloSoundBoardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42BBDCBD2CB49375008F374B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					42BBDCC42CB49375008F374B = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					42BBDCDD2CB49378008F374B = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 42BBDCC42CB49375008F374B;
+					};
+					42BBDCE72CB49378008F374B = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 42BBDCC42CB49375008F374B;
+					};
+				};
+			};
+			buildConfigurationList = 42BBDCC02CB49375008F374B /* Build configuration list for PBXProject "ParrilloSoundBoard" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 42BBDCBC2CB49375008F374B;
+			productRefGroup = 42BBDCC62CB49375008F374B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42BBDCC42CB49375008F374B /* ParrilloSoundBoard */,
+				42BBDCDD2CB49378008F374B /* ParrilloSoundBoardTests */,
+				42BBDCE72CB49378008F374B /* ParrilloSoundBoardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42BBDCC32CB49375008F374B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42BBDCD82CB49378008F374B /* LaunchScreen.storyboard in Resources */,
+				42BBDCD52CB49378008F374B /* Assets.xcassets in Resources */,
+				42BBDCD02CB49375008F374B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42BBDCDC2CB49378008F374B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42BBDCE62CB49378008F374B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42BBDCC12CB49375008F374B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42BBDCCD2CB49375008F374B /* ViewController.swift in Sources */,
+				42BBDCD32CB49375008F374B /* ParrilloSoundBoard.xcdatamodeld in Sources */,
+				42BBDCC92CB49375008F374B /* AppDelegate.swift in Sources */,
+				42BBDCCB2CB49375008F374B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42BBDCDA2CB49378008F374B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42BBDCE32CB49378008F374B /* ParrilloSoundBoardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42BBDCE42CB49378008F374B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42BBDCEF2CB49378008F374B /* ParrilloSoundBoardUITestsLaunchTests.swift in Sources */,
+				42BBDCED2CB49378008F374B /* ParrilloSoundBoardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		42BBDCE02CB49378008F374B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42BBDCC42CB49375008F374B /* ParrilloSoundBoard */;
+			targetProxy = 42BBDCDF2CB49378008F374B /* PBXContainerItemProxy */;
+		};
+		42BBDCEA2CB49378008F374B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42BBDCC42CB49375008F374B /* ParrilloSoundBoard */;
+			targetProxy = 42BBDCE92CB49378008F374B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		42BBDCCE2CB49375008F374B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42BBDCCF2CB49375008F374B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		42BBDCD62CB49378008F374B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42BBDCD72CB49378008F374B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		42BBDCF02CB49378008F374B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		42BBDCF12CB49378008F374B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		42BBDCF32CB49378008F374B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ParrilloSoundBoard/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.miempresa.ParrilloSoundBoard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		42BBDCF42CB49378008F374B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ParrilloSoundBoard/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.miempresa.ParrilloSoundBoard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		42BBDCF62CB49378008F374B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.miempresa.ParrilloSoundBoardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ParrilloSoundBoard.app/ParrilloSoundBoard";
+			};
+			name = Debug;
+		};
+		42BBDCF72CB49378008F374B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.miempresa.ParrilloSoundBoardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ParrilloSoundBoard.app/ParrilloSoundBoard";
+			};
+			name = Release;
+		};
+		42BBDCF92CB49378008F374B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.miempresa.ParrilloSoundBoardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ParrilloSoundBoard;
+			};
+			name = Debug;
+		};
+		42BBDCFA2CB49378008F374B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.miempresa.ParrilloSoundBoardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ParrilloSoundBoard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42BBDCC02CB49375008F374B /* Build configuration list for PBXProject "ParrilloSoundBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42BBDCF02CB49378008F374B /* Debug */,
+				42BBDCF12CB49378008F374B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42BBDCF22CB49378008F374B /* Build configuration list for PBXNativeTarget "ParrilloSoundBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42BBDCF32CB49378008F374B /* Debug */,
+				42BBDCF42CB49378008F374B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42BBDCF52CB49378008F374B /* Build configuration list for PBXNativeTarget "ParrilloSoundBoardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42BBDCF62CB49378008F374B /* Debug */,
+				42BBDCF72CB49378008F374B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42BBDCF82CB49378008F374B /* Build configuration list for PBXNativeTarget "ParrilloSoundBoardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42BBDCF92CB49378008F374B /* Debug */,
+				42BBDCFA2CB49378008F374B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		42BBDCD12CB49375008F374B /* ParrilloSoundBoard.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				42BBDCD22CB49375008F374B /* ParrilloSoundBoard.xcdatamodel */,
+			);
+			currentVersion = 42BBDCD22CB49375008F374B /* ParrilloSoundBoard.xcdatamodel */;
+			path = ParrilloSoundBoard.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 42BBDCBD2CB49375008F374B /* Project object */;
+}
