@@ -14,11 +14,15 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = UITableViewCell()
+        let cell = UITableViewCell(style: .subtitle, reuseIdentifier: nil)
         let grabacion = grabaciones[indexPath.row]
         cell.textLabel?.text = grabacion.nombre
+        let minutos = Int(grabacion.duracion) / 60
+        let segundos = Int(grabacion.duracion) % 60
+        cell.detailTextLabel?.text = String(format: "Duración: %02d:%02d", minutos, segundos)
         return cell
     }
+
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let grabacion = grabaciones[indexPath.row]

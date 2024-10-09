@@ -95,13 +95,27 @@
                                     <action selector="agregarTapped:" destination="LcM-e8-ep1" eventType="touchUpInside" id="tZM-GJ-XMA"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0:00:1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8E7-BB-W44">
+                                <rect key="frame" x="183" y="456" width="48" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Ach-u9-te3">
+                                <rect key="frame" x="98" y="531" width="218" height="31"/>
+                                <connections>
+                                    <action selector="volumenCambiado:" destination="LcM-e8-ep1" eventType="valueChanged" id="j2g-5v-i6V"/>
+                                </connections>
+                            </slider>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Aho-EU-yYG"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="8E7-BB-W44" firstAttribute="top" secondItem="uuo-M4-Rrd" secondAttribute="bottom" constant="49.5" id="1rg-4c-yex"/>
                             <constraint firstItem="uuo-M4-Rrd" firstAttribute="top" secondItem="NYc-0o-Wv1" secondAttribute="bottom" constant="20" id="3YD-1t-dE1"/>
                             <constraint firstItem="NYc-0o-Wv1" firstAttribute="centerX" secondItem="Kq5-S6-Pxs" secondAttribute="centerX" id="64p-eE-e9u"/>
                             <constraint firstItem="U7x-t1-3ed" firstAttribute="top" secondItem="aFh-2G-JSZ" secondAttribute="bottom" constant="20" id="8Je-hg-IAO"/>
+                            <constraint firstItem="Aho-EU-yYG" firstAttribute="trailing" secondItem="Ach-u9-te3" secondAttribute="trailing" constant="100" id="8Ze-bQ-Z2X"/>
                             <constraint firstItem="NYc-0o-Wv1" firstAttribute="top" secondItem="DgF-ll-KnW" secondAttribute="bottom" constant="20" id="GKS-BW-5V9"/>
                             <constraint firstItem="DgF-ll-KnW" firstAttribute="centerX" secondItem="Kq5-S6-Pxs" secondAttribute="centerX" id="LCv-57-jhk"/>
                             <constraint firstItem="DgF-ll-KnW" firstAttribute="centerX" secondItem="Kq5-S6-Pxs" secondAttribute="centerX" id="NGs-6U-A6P"/>
@@ -110,11 +124,15 @@
                             <constraint firstItem="DgF-ll-KnW" firstAttribute="top" secondItem="U7x-t1-3ed" secondAttribute="bottom" constant="30" id="Rzn-24-EDq"/>
                             <constraint firstItem="DgF-ll-KnW" firstAttribute="leading" secondItem="Aho-EU-yYG" secondAttribute="leading" constant="20" id="S0f-y3-EXM"/>
                             <constraint firstItem="NYc-0o-Wv1" firstAttribute="centerX" secondItem="Kq5-S6-Pxs" secondAttribute="centerX" id="WQj-Of-LFK"/>
+                            <constraint firstItem="Ach-u9-te3" firstAttribute="top" secondItem="8E7-BB-W44" secondAttribute="bottom" constant="54" id="WtK-VD-dEf"/>
+                            <constraint firstItem="8E7-BB-W44" firstAttribute="centerX" secondItem="Kq5-S6-Pxs" secondAttribute="centerX" id="hDn-jo-cdn"/>
                             <constraint firstItem="NYc-0o-Wv1" firstAttribute="leading" secondItem="Aho-EU-yYG" secondAttribute="leading" constant="20" id="mLk-Kr-K3D"/>
                             <constraint firstItem="aFh-2G-JSZ" firstAttribute="centerX" secondItem="Kq5-S6-Pxs" secondAttribute="centerX" id="okg-kG-A45"/>
                             <constraint firstItem="aFh-2G-JSZ" firstAttribute="top" secondItem="Aho-EU-yYG" secondAttribute="top" constant="20" id="qhk-db-kjJ"/>
                             <constraint firstItem="Aho-EU-yYG" firstAttribute="trailing" secondItem="DgF-ll-KnW" secondAttribute="trailing" constant="20" id="rQR-DP-trs"/>
+                            <constraint firstItem="Ach-u9-te3" firstAttribute="leading" secondItem="Aho-EU-yYG" secondAttribute="leading" constant="100" id="xQm-cs-mPA"/>
                             <constraint firstItem="aFh-2G-JSZ" firstAttribute="centerX" secondItem="U7x-t1-3ed" secondAttribute="centerX" id="yE9-GN-ICW"/>
+                            <constraint firstItem="8E7-BB-W44" firstAttribute="centerX" secondItem="Kq5-S6-Pxs" secondAttribute="centerX" id="ycd-67-aZf"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="pVg-zo-2dW"/>
@@ -123,6 +141,8 @@
                         <outlet property="grabarButton" destination="aFh-2G-JSZ" id="B2n-wb-aV9"/>
                         <outlet property="nombreTextField" destination="NYc-0o-Wv1" id="hSP-UA-Krd"/>
                         <outlet property="reproducirButton" destination="U7x-t1-3ed" id="lQb-dy-9bR"/>
+                        <outlet property="tiempoLabel" destination="8E7-BB-W44" id="BUu-0y-RTv"/>
+                        <outlet property="volumenSlider" destination="Ach-u9-te3" id="wP5-se-dWw"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="S5l-qB-iA7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
